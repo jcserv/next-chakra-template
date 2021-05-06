@@ -23,14 +23,12 @@ import { colors } from "../theme";
 
 const navBtns = [
   {
-    label: "Sign in",
+    label: "Login",
+    href: "/login",
   },
   {
-    label: "Sign up",
-  },
-  {
-    label: "Blog",
-    href: "https://jarrod-servilla.medium.com/",
+    label: "Register",
+    href: "/register",
   },
 ];
 
@@ -54,9 +52,7 @@ const MenuToggle = ({ isOpen, onOpen }) => (
 const NavButtons = ({ size, onClose }) => {
   const btns = navBtns.map((btn) => (
     <Button key={btn.label} size={size} variant="link" mb={2} onClick={onClose}>
-      <Link href={btn.href} isExternal>
-        {btn.label}
-      </Link>
+      <Link href={btn.href}>{btn.label}</Link>
     </Button>
   ));
   return <>{btns}</>;

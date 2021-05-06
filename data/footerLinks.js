@@ -2,27 +2,22 @@ const links = [
   {
     label: "Github",
     icon: "github",
-    url: "https://github.com/jcserv/",
+    url: "https://github.com/",
   },
   {
     label: "LinkedIn",
     icon: "linkedin",
-    url: "https://www.linkedin.com/in/jarrod-servilla/",
+    url: "https://www.linkedin.com/",
   },
   {
     label: "Devpost",
     icon: "devpost",
-    url: "https://devpost.com/jcserv",
+    url: "https://devpost.com/",
   },
   {
     label: "Email",
     icon: "email",
-    url: "mailto:jarrod.servilla@gmail.com",
-  },
-  {
-    label: "Resume",
-    icon: "document",
-    url: "/resume.pdf",
+    url: "mailto:hello@gmail.com",
   },
 ];
 
