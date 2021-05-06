@@ -14,10 +14,6 @@ export const colors = {
     light: "#1ca7d0",
     dark: "#90cdf4",
   },
-  tertiary: {
-    light: "#736CED",
-    dark: "#0056b3",
-  },
   subtle: {
     light: "gray.400",
     dark: "#FFFFFF",
