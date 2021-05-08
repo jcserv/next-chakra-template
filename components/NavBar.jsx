@@ -32,14 +32,11 @@ const navBtns = [
   },
 ];
 
-const Logo = () => {
-  const logo = useColorModeValue("/logo.png", "/logo-dark.png");
-  return (
-    <Box m="2">
-      <img alt="" src={logo} width="60" height="60" />
-    </Box>
-  );
-};
+const Logo = () => (
+  <Box m="2">
+    <img alt="" src="/logo.png" width="60" height="60" />
+  </Box>
+);
 
 const MenuToggle = ({ isOpen, onOpen }) => (
   <Box display={{ base: "block", md: "none" }} pr={4}>
